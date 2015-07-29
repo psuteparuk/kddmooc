@@ -1,0 +1,93 @@
+
+/* Based on JAD // FRAMEWORK
+    www.jadlimcaco.com */      
+
+/* ============================================================
+   BODY STYLES
+   ============================================================ */ 
+   html, body             { width:100%; height:100%; }
+   body                   { color:#1B1B1B; background:#FBFBFB; font:normal 100%/1.4 serif; font-family:"Open Sans", Arial, sans-serif; cursor:default; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-backface-visibility: hidden; }
+
+   /* HEADINGS
+   ---------------------------------------- */ 
+   h1, h2, h3, h4, h5, h6 { color:#222; font-weight:bold; font-family:Montserrat, Arial, sans-serif; line-height:1.4; }
+   h1                     { font-size:2.250rem; margin-bottom:3rem; }
+   h2                     { font-size:2.250rem; margin-bottom:3rem; }
+   h3                     { font-size:1.35rem; font-family:"Open Sans", Arial, sans-serif; display:block; }
+   h4                     { font-size:1.125rem; }
+   h5                     { font-size:1rem; }
+   h6                     { font-size:1rem; }
+
+   /* PARAGRAPH
+   ---------------------------------------- */ 
+   p                      { margin:0 0 2rem; line-height:1.625; }
+
+   /* OTHER
+   ---------------------------------------- */ 
+   em, i                  { font-style:italic; }
+   strong, b              { font-weight:bold; }
+   hr                     { border:2px solid #C8C8C8; clear:both; margin:3rem auto; height:0; width:20%; }
+   img                    { max-width:100% }
+   figcaption             { font-size:0.75rem; color:#737373; }
+
+   /* LINKS
+   ---------------------------------------- */ 
+   a                      { color:#1B1B1B; text-decoration:none; outline:0; cursor:pointer;
+                            -webkit-transition: all 0.4s ease 0s;
+                            -moz-transition:    all 0.4s ease 0s;
+                            -o-transition:      all 0.4s ease 0s;
+                            transition:         all 0.4s ease 0s; }
+   a:hover, a:focus, a:active       { color:#00C96D; outline:0; }
+   
+   /* SELECTION
+   ---------------------------------------- */ 
+   ::selection            { background:#1B1B1B; color:#FBFBFB; }
+   ::-moz-selection       { background:#1B1B1B; color:#FBFBFB; }
+
+   /* LIST
+   ---------------------------------------- */
+   ul, ol                     { margin:15px 0; padding-left:30px; }
+   ul                         { list-style-type:disc; }
+   ol                         { list-style-type:decimal; }
+   ol ul, ul ol, ul ul, ol ol { margin:0; }
+   ul ul, ol ul               { list-style-type:circle; }
+
+/* ============================================================
+   DEFAULT CLASSES
+   ============================================================ */ 
+   .no-bg                 { background:none; }
+   .no-display            { display:none; }
+   .no-border             { border:0; }
+   .no-margin             { margin:0 !important; line-height:0 !important; }
+   .no-margin-top         { margin-top:0 !important; line-height:0 !important; }
+   .no-margin-bottom      { margin-bottom:0 !important; line-height:0 !important; }
+   .margin-b-l            { margin-bottom:3rem !important; }
+   .margin-t-l            { margin-top:3rem !important; }
+   .no-padding            { padding:0; }
+   .clear                 { clear:both; display:block; overflow:hidden; visibility:hidden; width:0; height:0; }
+   .clearfix:before       { content:" "; display:table; }
+   .clearfix:after        { content:" "; display:table; clear:both; }
+   .pull-left             { float:left; }
+   .pull-right            { float:right; }
+   .center                { text-align:center !important; }
+   .alignleft             { float:left; margin:0 1.25rem .625rem 0; }
+   .alignright            { float:right; margin:0 0 .625rem 1.25rem; }
+   .aligncenter           { margin:0 auto; }
+   .disabled              { pointer-events:none; cursor:default; opacity:0.4; }
+   .button                { display:inline-block; font-size:1.125rem; text-align:center; padding:.5em 1rem; -webkit-border-radius:50px; border-radius:50px; border:solid 2px #1B1B1B; cursor:pointer;
+                            -webkit-transition: all 0.4s ease 0s;
+                            -moz-transition:    all 0.4s ease 0s;
+                            -o-transition:      all 0.4s ease 0s;
+                            transition:         all 0.4s ease 0s; }
+   .button:hover          { border:2px solid #FF9009; color:#FF9009; }
+   input[type=submit]     { cursor:pointer; }
+   .head-quote            { font-family:Raleway, Arial, sans-serif; font-style:italic; font-size:1.75rem; display:block; margin:0 auto 1.5rem; text-align:center; max-width:75%; letter-spacing:.02rem; }
+   .border                { border:solid 1px #C8C8C8; }
+   .delay                 { -webkit-animation-delay:1s; -moz-animation-delay:1s; -o-animation-delay:1s; animation-delay:1s; }
+
+   .img-right             { display:block; float:right; width:35%; margin:0 0 1.5rem 3rem; }
+   .img-right img         { width:100%; }
+
+   .img-mid               { display:block; float:none; width:70%; margin:2.5rem auto 1.5rem auto; }
+   .img-mid img           { width:100%; }
+   .gmnoprint img         { max-width:none; }

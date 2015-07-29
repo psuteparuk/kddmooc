@@ -1,0 +1,141 @@
+#left-panel, #right-panel {
+  height: 100%;
+}
+
+/* Dropdown */
+
+.selectors {
+  margin: 2rem 0;
+}
+
+.selectors > .selector-container {
+  margin-bottom: 0.8rem;
+}
+
+.selectors > .selector-container > h4 {
+  margin-bottom: 0.2rem;
+}
+
+.form-selector {
+  display: block;
+  background-color: white;
+  border: 1px solid #C8C8C8;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  line-height: 1.42857;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  -webkit-transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.form-selector:focus {
+  border-color: #FF9009;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px rgba(255, 144, 9, 0.6);
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px rgba(255, 144, 9, 0.6);
+  outline: none;
+}
+
+.form-selector:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 black;
+}
+
+/* Radio */
+
+.radio-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 1.2rem;
+  margin-right: 0.8rem;
+  margin-bottom: 0;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.radio-inline input[type=radio] {
+  position: absolute;
+  margin-top: 0.2rem;
+  margin-left: -1.2rem;
+  line-height: normal;
+}
+
+/* Panel */
+
+.panel {
+  border: 1px solid #C8C8C8;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.panel > .panel-title {
+  display: block;
+  background-color: #C8C8C8;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 0.2rem 0.5rem;
+  font-weight: bold;
+  color: #FBFBFB;
+}
+
+.panel > .panel-content {
+  background-color: #FBFBFB;
+  border-top: 1px solid #DDD;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 0.5rem;
+}
+
+/* Feature Panel */
+
+.features {
+  border-color: #FF9009;
+  margin: 2rem 0;
+}
+
+.features > .panel-title {
+  background-color: #FF9009;
+}
+
+/* Right Panel */
+
+.right-panel-container {
+  margin: 1rem 0 2rem;
+}
+
+/* Predictor Panel */
+
+.predictors.pass {
+  border-color: #00C96D;
+}
+
+.predictors.pass > .panel-title {
+  background-color: #00C96D;
+}
+
+.predictors.fail {
+  border-color: #DC143C;
+}
+
+.predictors.fail > .panel-title {
+  background-color: #DC143C;
+}
+
+.predictors.pass > .panel-title > h2,
+.predictors.fail > .panel-title > h2 {
+  text-align: center;
+  color: #FBFBFB;
+}
+
+/* Graph Panel */
+
+.graphs {
+  border-color: #2BA6CB;
+}
+
+.graphs > .panel-title {
+  background-color: #2BA6CB;
+}

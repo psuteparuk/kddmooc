@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KDD MOOC Challenge</title>
+
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, minimun-scale=1, maximum-scale=1'>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,400italic,700|Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/base.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="main" role="main">
+      <div class="container-12 clearfix">
+        <div class="grid-4" id="left-panel">
+          <div class="selectors">
+            <div class="selector-container">
+              <h4>Select a Course</h4>
+              <select class="form-selector" id="course-selector">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+            </div>
+
+            <div class="selector-container">
+              <h4>Select Student's Result</h4>
+              <label class="radio-inline"><input type="radio" name="student-type" id="student-selector" value="0" />Random</label>
+              <label class="radio-inline"><input type="radio" name="student-type" id="student-selector" value="0" />Drop-Out</label>
+              <label class="radio-inline"><input type="radio" name="student-type" id="student-selector" value="0" />Non Drop-Out</label>
+            </div>
+          </div>
+
+          <div class="features panel">
+            <div class="panel-title"><i class="fa fa-star"></i>&nbsp;&nbsp;Features</div>
+            <div class="panel-content">
+              <p id="num-events">#&nbsp;Events:&nbsp;</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-8" id="right-panel">
+          <div class="predictors right-panel-container panel pass">
+            <div class="panel-title">
+              <h2>23.39%</h2>
+            </div>
+            <div class="panel-content"><i class="fa fa-hand-o-right"></i></div>
+          </div>
+
+          <div class="graphs right-panel-container panel">
+            <div class="panel-title"><i class="fa fa-bar-chart"></i>&nbsp;&nbsp;Charts</div>
+            <div class="panel-content">
+              <p>YO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
