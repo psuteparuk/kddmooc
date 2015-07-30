@@ -9,6 +9,7 @@ $(function() {
 
   var $courseSelector = $('#course-selector');
   var $studentSelector = $('input[name="student-type"]');
+  var $selectorButton = $('#selector-button');
 
   function parseJSON(path, callback) {
     d3.json(path, function(json) {
@@ -33,6 +34,7 @@ $(function() {
 
     $courseSelector.change(function() { populateUI(course_enroll, course_enroll_drop, course_enroll_notdrop, student_info, course_endtime); });
     $studentSelector.change(function() { populateUI(course_enroll, course_enroll_drop, course_enroll_notdrop, student_info, course_endtime); });
+    $selectorButton.click(function() { populateUI(course_enroll, course_enroll_drop, course_enroll_notdrop, student_info, course_endtime); });
   }
 
   function populateUI(course_enroll, course_enroll_drop, course_enroll_notdrop, student_info, course_endtime) {
