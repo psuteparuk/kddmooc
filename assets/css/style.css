@@ -80,6 +80,8 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  -webkit-transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 }
 
 .btn:hover {
