@@ -41,15 +41,32 @@
           <div class="features panel">
             <div class="panel-title"><i class="fa fa-star"></i>&nbsp;&nbsp;Features</div>
             <div class="panel-content">
-              <p id="num-events">#&nbsp;Events:&nbsp;</p>
+              <table cellspacing="0">
+                <tr>
+                  <td># of Events</td>
+                  <td class="feature-values"><span id="num-events"></span></td>
+                </tr>
+                <tr>
+                  <td># of Sessions</td>
+                  <td class="feature-values"><span id="num-sessions"></span></td>
+                </tr>
+                <tr>
+                  <td>Avg Session Length</td>
+                  <td class="feature-values"><span id="avg-session"></span> seconds</td>
+                </tr>
+                <tr>
+                  <td># of Events per Session</td>
+                  <td class="feature-values"><span id="num-events-per-session"></span></td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
 
         <div class="grid-8" id="right-panel">
-          <div class="predictors right-panel-container panel pass">
+          <div class="predictors right-panel-container panel">
             <div class="panel-title">
-              <h2>23.39%</h2>
+              <h2>Drop-Out Chance: <span id="drop-out-percentage"></span> %</h2>
             </div>
             <div class="panel-content"><i class="fa fa-hand-o-right"></i></div>
           </div>

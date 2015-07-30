@@ -100,6 +100,24 @@
   background-color: #FF9009;
 }
 
+.features table {
+  margin: 0 auto;
+  text-align: right;
+}
+
+.features table tr:not(:last-child) td {
+  border-bottom: 1px solid #C8C8C8;
+}
+
+.features table td {
+  padding: 1rem 0;
+}
+
+.features table td.feature-values {
+  padding: 0 2rem;
+  text-align: left;
+}
+
 /* Right Panel */
 
 .right-panel-container {
@@ -124,10 +142,9 @@
   background-color: #DC143C;
 }
 
-.predictors.pass > .panel-title > h2,
-.predictors.fail > .panel-title > h2 {
+.predictors > .panel-title > h2 {
   text-align: center;
-  color: #FBFBFB;
+  color: white;
 }
 
 /* Graph Panel */
