@@ -134,6 +134,10 @@
   background-color: #00C96D;
 }
 
+.predictors.pass > .panel-content #model-result {
+  color: #00C96D;
+}
+
 .predictors.fail {
   border-color: #DC143C;
 }
@@ -142,9 +146,25 @@
   background-color: #DC143C;
 }
 
-.predictors > .panel-title > h2 {
+.predictors.fail > .panel-content #model-result {
+  color: #DC143C;
+}
+
+.predictors > .panel-content {
   text-align: center;
-  color: white;
+}
+
+.predictors > .panel-content > .split-panel {
+  float: left;
+  width: 50%;
+}
+
+.predictors > .panel-content #actual-result.pass {
+  color: #00C96D;
+}
+
+.predictors > .panel-content #actual-result.fail {
+  color: #DC143C;
 }
 
 /* Graph Panel */
@@ -155,4 +175,28 @@
 
 .graphs > .panel-title {
   background-color: #2BA6CB;
+}
+
+/* Chart */
+
+.graphs > .panel-content {
+  font-size: 0.75rem;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #1B1B1B;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  stroke: #1B1B1B;
+}
+
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
 }

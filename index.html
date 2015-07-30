@@ -52,11 +52,15 @@
                 </tr>
                 <tr>
                   <td>Avg Session Length</td>
-                  <td class="feature-values"><span id="avg-session"></span> seconds</td>
+                  <td class="feature-values"><span id="avg-session"></span> minutes</td>
                 </tr>
                 <tr>
                   <td># of Events per Session</td>
                   <td class="feature-values"><span id="num-events-per-session"></span></td>
+                </tr>
+                <tr>
+                  <td>Time in Course</td>
+                  <td class="feature-values"><span id="time-in-course"></span> hours</td>
                 </tr>
               </table>
             </div>
@@ -65,17 +69,17 @@
 
         <div class="grid-8" id="right-panel">
           <div class="predictors right-panel-container panel">
-            <div class="panel-title">
-              <h2>Drop-Out Chance: <span id="drop-out-percentage"></span> %</h2>
+            <div class="panel-title"><i class="fa fa-line-chart"></i>&nbsp;&nbsp;Prediction Model</div>
+            <div class="panel-content">
+              <div class="split-panel"><h3>Predicted Drop-Out Chance</h3><h2 id="model-result"><span id="drop-out-percentage"></span> %</h2></div>
+              <div class="split-panel"><h3>Actual Data</h3><h2 id="actual-result"></h2></div>
+              <div class="clearfix"></div>
             </div>
-            <div class="panel-content"><i class="fa fa-hand-o-right"></i></div>
           </div>
 
           <div class="graphs right-panel-container panel">
             <div class="panel-title"><i class="fa fa-bar-chart"></i>&nbsp;&nbsp;Charts</div>
-            <div class="panel-content">
-              <p>YO</p>
-            </div>
+            <div class="panel-content"></div>
           </div>
         </div>
       </div>
